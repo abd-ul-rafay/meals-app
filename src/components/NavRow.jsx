@@ -28,7 +28,7 @@ const NavRow = () => {
           <input type="text" id="search" name="search" placeholder="Search for meal..." value={search} onChange={handleSearchField}/>
           <button type="submit">Search</button>
         </form>
-        <button onClick={handleRandomMealBtn}>Random Meal</button>
+        <button onClick={handleRandomMealBtn}>Random</button>
       </div>
     </nav>
   )
